@@ -1,0 +1,17 @@
+object_list:
+  - name: biscuits
+    group: red
+  - name: eraser
+    group: red
+  - name: book
+    group: red
+  - name: glue
+    group: red
+  - name: snacks
+    group: green
+  - name: soap2
+    group: green
+  - name: soap
+    group: green
+  - name: sticky_notes
+    group: green
