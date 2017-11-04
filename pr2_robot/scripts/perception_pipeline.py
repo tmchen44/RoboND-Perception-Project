@@ -342,7 +342,8 @@ class Robot(object):
 
     # Function to generate appropriate collision map for PickPlace Service
     def publish_collision_map(self):
-        # Clear octomap
+        # Clear octomap - this method of clearing the existing collision map
+        # originally came from a RoboND Slack post
         rospy.wait_for_service('/clear_octomap')
         clear_octomap = rospy.ServiceProxy('/clear_octomap', Empty)
         try:
