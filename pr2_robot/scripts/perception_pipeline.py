@@ -74,7 +74,7 @@ class Robot(object):
         self.num_of_picks = None
         self.picked = 0
         # TODO: Set test scene number here
-        self.test_scene = 3
+        self.test_scene = 1
 
         # ROS node initialization
         rospy.init_node('perception_pipeline', anonymous=True)
